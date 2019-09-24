@@ -1,0 +1,39 @@
+/* myStyle.css */
+body {
+ background-color: #333300;
+ color: #FFFFFF;
+}
+@media screen and (min-width: 400px) {
+  body {
+    background-color: green;
+  }
+}
+h1 {
+ color: #FFFF33;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+p {
+ background-color: #FFFF33;
+ color: #333300;
+ text-align: left;
+ border: 3px groove #FFFF33;
+}
+a:hover {
+  background-color: yellow;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.large {
+	font-size: 20
+}
+.link {
+	color: #FF0000;
+}
+.link:hover {
+	color: #00FF00;
+}
